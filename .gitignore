@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+.AppleDouble
+.AppleDesktop
+.AppleDB
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
