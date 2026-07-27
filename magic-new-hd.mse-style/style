@@ -93,6 +93,12 @@ init script:
 				dark:  "acard_blend_" + colors[0] + ".png",
 				light: "acard_blend_" + colors[1] + ".png",
 			))
+		else if type == "card" and color_count == 2 and shape != "overlay" and styling.creature_blending then
+			masked_blend(
+				mask:  "acard_blend_two.png",
+				dark:  "card_blend_" + colors[0] + ".png",
+				light: "card_blend_" + colors[1] + ".png",
+			)
 		else base
 	}
 
@@ -123,6 +129,11 @@ styling field:
 	type: boolean
 	name: artifact blending
 	description: Use artifact blending
+	initial: no
+styling field:
+	type: boolean
+	name: creature blending
+	description: Use creature blending
 	initial: no
 styling field:
 	type: boolean

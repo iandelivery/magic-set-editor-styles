@@ -36,7 +36,9 @@ Here is a look at what cards generated with this template look like:
 
 ![dual-color-artifact](examples/magic-new-hd/Shorikai%20Genesis%20Engine.png)
 
-![dual-color-hybrid](examples/magic-new-hd/Psychic%20Frog.png)
+![dual-color-hybrid](examples/magic-new-hd/Deceit.png)
+
+![dual-color-creature](examples/magic-new-hd/Psychic%20Frog.png)
 
 ![devoid](examples/magic-new-hd/Sowing%20Mycospawn.png)
 
